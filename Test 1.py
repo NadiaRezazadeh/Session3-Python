@@ -3,7 +3,7 @@ import random
 pc_number = random.randint(0,100)
 t = 0
 
-n = print("Guess a number between 0 and 100") 
+print("Guess a number between 0 and 100") 
 while True:
     user_number = int(input(" enter the number you guessed ="))
    
